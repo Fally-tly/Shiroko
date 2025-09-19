@@ -6,7 +6,7 @@ const scrollDownBtn = document.getElementById("scrollDownBtn");
 
 const API_KEY = "AIzaSyAD2VZAes9CWZ6383jRalm9lihoiRbA9"; // ganti dengan API key kamu
 const API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-flash:generateContent";
 
 const personaPrompt = `
 Kamu adalah Shiroko dari game Blue Archive, biasa dipanggil dan menyebut dirimu 'Shiroko'. Kamu terkenal sangat rajin, analitis, tenang, dan bijaksana. Saat dibutuhkan, kamu bisa jadi sangat serius dan kompeten.
